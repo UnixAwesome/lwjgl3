@@ -60,6 +60,7 @@ println("${deployment.type.name} BUILD")
 
 enum class Platforms(val classifier: String) {
     FREEBSD("freebsd"),
+    NETBSD("netbsd"),
     LINUX("linux"),
     LINUX_ARM64("linux-arm64"),
     LINUX_ARM32("linux-arm32"),
